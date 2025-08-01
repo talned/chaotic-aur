@@ -6,4 +6,4 @@ cat <<EOF | sudo tee -a /etc/pacman.conf
 [chaotic-aur]
 Include = /etc/pacman.d/chaotic-mirrorlist
 EOF
-echo "Now do sudo pacman -Syyu"
+echo "Chaotic AUR is Now Installed. Now do sudo pacman -Syyu."
